@@ -6,7 +6,7 @@ body {
 h1 {
     font-size: 40px;
     color: #1f1f1f;
-    margin: 0px;
+    margin: 0;
 }
 
 h2 {
@@ -24,15 +24,14 @@ ul {
 }
 
 img {
-    width: 256px;
-    height: 192px;
+    width: 512px;
+    height: 384px;
     border-radius: 15px;
 
 }
 
 .content{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
 }
 
 .content-left{
@@ -46,6 +45,7 @@ img {
     padding: 20px;
     border-radius: 35px;
     background-color: #28282a;
+    width: 100%;
 }
 
 a {
