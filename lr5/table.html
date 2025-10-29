@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel= 'stylesheet' href="style.css">
+    <link rel= 'stylesheet' href="table.css">
+    <link rel = 'stylesheet' href="form.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="header">
+    <a href="index.html">Основная страница</a>
+    <a href="page2.html">Позиционированние элементов</a>
+    <a href="table.html">Таблица</a>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@X</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Jake</td>
+            <td>Proper</td>
+            <td>@vso</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@X</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Jake</td>
+            <td>Proper</td>
+            <td>@vso</td>
+        </tr>
+    </tbody>
+</table>
+    <div class="form-wrapper">
+        <form>
+            <div class="form-item">
+                <label for = 'id'></label>
+                <input id = 'id' type = "text" placeholder="id">
+            </div>
+            <div class="form-item">
+                <label for="First-Name"></label>
+                <input id ='First-Name' type = "text" placeholder="First Name">
+            </div>
+            <div class="form-item">
+                <label for="Last-Name"></label>
+                <input id ='Last-Name' type = "text" placeholder="Last Name">
+            </div>
+            <div class="form-item">
+                <label for="Username"></label>
+                <input id ='Username' type = "text" placeholder="Username">
+            </div>
+        </form>
+        <button type="submit" onclick="addRow()">Add</button>
+    </div>
+</body>
+</html>
