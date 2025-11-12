@@ -33,12 +33,13 @@ img {
 .content{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 20px;
 }
 
 .content-left{
     background-color: #c4e7ff;
     padding: 20px;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     border-radius: 35px;
 }
 
@@ -148,13 +149,4 @@ img {
 
 .fixed-image {
     height: 200px;
-}
-
-.my {
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    position: sticky;
-    top: 0;
-    left: 0;
 }
