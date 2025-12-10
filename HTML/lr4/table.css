@@ -1,0 +1,36 @@
+table {
+    font-size: 20px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    border: black solid 2px;
+    width: 100%;
+}
+
+th {
+    border: black solid 1px;
+    padding: 20px;
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+    border: black solid 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+th {
+    background-color: #CCCCCC;
+}
+
+tr:nth-child(3n+2) {
+    background-color: #FFCCCC;
+}
+
+tr:nth-child(3n+3) {
+    background-color: #CCFFCC;
+}
+
+tr:nth-child(3n+1) {
+    background-color: #CCCCFF;
+}

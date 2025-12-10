@@ -1,0 +1,160 @@
+body {
+    padding: 10px;
+    background-color: #e5effa;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1f1f1f;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: #056912;
+    margin: 0;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+img {
+    width: 256px;
+    height: 192px;
+    border-radius: 15px;
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.content-left{
+    background-color: #c4e7ff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 35px;
+}
+
+.content-right{
+    padding: 20px;
+    border-radius: 35px;
+    background-color: #28282a;
+}
+
+.header{
+    text-align: right;
+}
+
+.container{
+    background-color: #FF5449;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    padding: 35px;
+    background-color: #c4e7ff;
+    border-radius: 35px;
+    margin: 0 auto;
+}
+
+.custom_image {
+    display: block;
+    margin: 0 auto;
+}
+
+.container-2 {
+    background-color: yellowgreen;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.block-2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.container-3 {
+    background-color: navajowhite;
+    margin-top: 30px;
+    border: powderblue 10px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-3 {
+    background-color: magenta;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.container-4 {
+    margin-top: 10px;
+    border: black 5px solid;
+    padding: 20px;
+    height: 700px;
+}
+
+.block-4 {
+    border: red 5px solid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.block-5 {
+    border: blue 5px solid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+}
+
+.block-6 {
+    border: green 5px solid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+
+.container-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.fixed-image {
+    height: 200px;
+}
+
+.my {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
