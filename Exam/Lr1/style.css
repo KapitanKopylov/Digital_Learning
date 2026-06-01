@@ -1,0 +1,31 @@
+h1 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 3vh 0 0 0;
+    color: black;
+}
+
+button {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    background-color: #6F8EF3;
+    border: none;
+    font-size: 1em;
+    padding: 2vh 3vw;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: rgb(0 0 0 / 0.5);
+    font-family: sans-serif;
+    padding: 1vh 2vw;
+}
+
+input {
+    width: 100%;
+}
